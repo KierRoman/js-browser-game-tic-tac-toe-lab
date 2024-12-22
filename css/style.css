@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+}
+
+.board {
+    color: aliceblue;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 400px;
+    width: 400px;
+    /* background-color: darkorchid; */
+    justify-content: center;
+}
+.sqr {
+    font-size: xx-large;
+    align-content: center;
+    justify-content: center;
+    border-radius: 15px;
+    border: steelblue double;
+    /* background-color: aqua; */
+    width: 100px;
+    height: 100px;
+ }
+ .sqr:hover {
+    background-color: darkslateblue;
+ }
+ #reset:hover {
+    background-color: goldenrod;
+ }
+
+ #reset{
+    color:red;
+    border: steelblue double;
+    border-radius: 15px;
+    background-color: transparent;
+    width: 75px;
+    height: 25px;
+ }
+ 
