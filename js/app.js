@@ -102,6 +102,7 @@ function render() {
 
 function init() {
     winner = false;
+    tie = false
     turn = 'X'
     board = ['', '', '', '', '', '', '', '', '']
     sqrEls.forEach(sqr => sqr.innerHTML = '')
@@ -115,5 +116,4 @@ rstBtnEl.addEventListener('click', init)
 sqrEls.forEach((sqr) => {
     addEventListener('click', handleClick)
 });
-
 
